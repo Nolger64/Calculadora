@@ -1,0 +1,36 @@
+.Calculadora{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+.input-result{
+    width: 600;
+    height: 60px;
+    margin: 10px;
+}
+.form-result{
+    width: 80%;
+}
+.num{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 640px;
+    height: 400px;
+}
+.btn-calc{
+    margin: 5px;
+    font-size: x-large;
+}
+@media (max-width: 600px) {
+    .num{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 350px;
+        height: 350px;
+    }
+}
+
